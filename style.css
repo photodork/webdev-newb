@@ -1,0 +1,58 @@
+body{
+    color: black;
+    background-color: #fff;
+}
+#heading{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+#btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#calc{
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+}
+#btntxt{
+    margin: 0;
+    padding: 0;
+}
+#tit{
+    text-align: center;
+}
+#mode{
+    padding-right: 7px;
+} 
+#themediv{
+    display: flex;
+    justify-content: end;
+    align-items: center
+}
+#theme{
+    width: 90px;
+    height: 30px;
+    cursor:pointer;
+}
+.height{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    margin-left: 7px;
+}
+.res{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
