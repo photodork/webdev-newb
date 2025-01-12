@@ -1,0 +1,39 @@
+#heading{
+    text-align: center;
+}
+.tic{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin: 5px;
+    overflow: hidden;
+}
+.r1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.r2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.r3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.res{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#reset{
+    width: 70px;
+    height: 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 22px;
+}
