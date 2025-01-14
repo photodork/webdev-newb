@@ -1,0 +1,25 @@
+.game{
+    text-align: center;
+}
+.prv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#remain{
+    margin-left: 5px;
+}
+#pre{
+    margin-left: 5px;
+}
+#btn{
+    cursor: pointer;
+}
+#res{
+    cursor: pointer;
+}
