@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#container{
+    border: 3px solid;
+    border-radius: 10px;
+    padding: 15px;
+}
+h1{
+    margin-bottom: 12px;
+}
+#in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#input{
+    margin-left: 7px;
+}
+button{
+    width: 100%;
+    height: 25px;
+    cursor: pointer;
+}
+.drop{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+img{
+    max-width: 2rem;
+}
+.new{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 2px gainsboro;
+    border-radius: 9px;
+    width: 6rem;
+}
+select{
+    border: none;
+    cursor: pointer;
+}
