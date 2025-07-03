@@ -1,7 +1,108 @@
 body {
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center; 
+    background-color: #4895ef;
+
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    letter-spacing: 0.02em;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #0466c8;    
+    transform: translateY(-2px);
+}
+#cstr{
+    margin-top: 15px;
+}
+.outerbox{
+    border: 7px solid #023e7d;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #bde0fe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 350px;
+    box-shadow: 0 10px 30px rgba(2,62,125,0.12);
+}
+button {
+    background-color: #023e7d;     
+    color: #ffffff;                 
+    border: none;
+    padding: 5px 8px;
+    margin: 10px 0;
+    font-size: 13px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+h1 {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+    color: #023e7d;
+}
+#child {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+input[type="password"], input[type="text"] {
+    padding: 8px;
+    font-size: 1rem;
+    border: 2px solid #023e7d;
+    border-radius: 8px;
+    width: 180px;
+    margin-right: 8px;
+}
+
+
+@media screen and (max-width: 455px) {
+    body {
+        background: linear-gradient(135deg, #4895ef 0%, #bde0fe 100%);
+    }
+    .outerbox {
+        width: 98vw;
+        max-width: 99vw;
+        min-height: 70vh;
+        padding: 12vw 4vw;
+        border-radius: 0 0 30px 30px;
+        border-width: 0 0 10px 0;
+        box-shadow: 0 6px 16px rgba(2,62,125,0.10);
+    }
+    #pass {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+    }
+    #pass input,
+    #pass button {
+        width: 100%;
+        margin: 0 0 10px 0;
+        font-size: 1.1rem;
+    }
+    #strength-bar {
+        width: 100%;
+        margin: 12px 0 18px 0;
+    }
+    button, #cstr {
+        width: 100%;
+        font-size: 1.1rem;
+        margin: 10px 0;
+        padding: 10px 0;
+    }
+    h1 {
+        font-size: 1.3rem;
+        margin-bottom: 18px;
+    }
+    #child {
+        font-size: 1rem;
+    }
+    p, label {
+        font-size: 1rem;
+    }
 }
